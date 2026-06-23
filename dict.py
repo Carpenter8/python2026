@@ -9,7 +9,7 @@ print(type(var))
 
 empty set ka two method hai 
 '''
-
+'''
 var={'Name':'vineet','age':21,'username':'vineet'}
 print(type(var))
 print(var)
@@ -17,9 +17,15 @@ print(var)
 
 print(var['Name'])
 print(var['age'])
-
+'''
 # new dict
 #pop method(remove)
 var={'Name':'vineet','age':21,'username':'vineet','password':'vineeet@123'}
-var.pop("Name")
+print(var.items)
+#var.pop("Name")
+#print(var)
+'''
+print.clear()
 print(var)
+
+'''
